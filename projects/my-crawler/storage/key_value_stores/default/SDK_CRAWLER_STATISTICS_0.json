@@ -1,0 +1,52 @@
+{
+  "requestsFinished": 0,
+  "requestsFailed": 1,
+  "requestsRetries": 1,
+  "requestsFailedPerMinute": 0,
+  "requestsFinishedPerMinute": 0,
+  "requestMinDurationMillis": null,
+  "requestMaxDurationMillis": 0,
+  "requestTotalFailedDurationMillis": 44017,
+  "requestTotalFinishedDurationMillis": 0,
+  "crawlerStartedAt": "2023-04-04T03:33:11.538Z",
+  "crawlerFinishedAt": "2023-04-04T03:36:12.235Z",
+  "statsPersistedAt": "2023-04-04T03:36:12.235Z",
+  "crawlerRuntimeMillis": 181108,
+  "crawlerLastStartTimestamp": 1680579191127,
+  "requestRetryHistogram": [
+    null,
+    null,
+    null,
+    1
+  ],
+  "statsId": 0,
+  "requestAvgFailedDurationMillis": 44017,
+  "requestAvgFinishedDurationMillis": null,
+  "requestTotalDurationMillis": 44017,
+  "requestsTotal": 1,
+  "requestsWithStatusCode": {
+    "200": 4
+  },
+  "errors": {
+    "file:///home/xinrong/projects/my-crawler/src/main.js:85:24": {
+      "missing error code": {
+        "TimeoutError": {
+          "page.waitForSelector: Timeout 30000ms exceeded.": {
+            "count": 1
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    "file:///home/xinrong/projects/my-crawler/src/main.js:85:24": {
+      "missing error code": {
+        "TimeoutError": {
+          "page.waitForSelector: Timeout 30000ms exceeded.": {
+            "count": 3
+          }
+        }
+      }
+    }
+  }
+}
